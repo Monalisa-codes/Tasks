@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input form</title>
+</head>
+<body>
+    <form class="inputfield" action="#">
+    <div>
+        <h1>Options</h1>
+        <label for="select_opt">Options</label>
+        <select id="select_opt" name="opt">
+            <option value="val1">val1</option>
+            <option value="val2">val2</option>
+            <option value="val3">val3</option>
+        </select>
+    </div>
+    <div>
+        <h1>Checkbox</h1>
+        <label for="check1"><input type="checkbox" id="check1" value="1" 
+            name="checker">1</label>
+
+        <label for="check2"><input type="checkbox" id="check2" value="2"
+            name="checker">2</label>
+        
+        <label for="check3"><input type="checkbox" id="check3" value="3"
+            name="checker">3</label>
+    </div>
+    <div>
+        <h1>Radio buttons</h1>
+        <label for="rad1"><input type="radio" id="rad1" name="rad1" value="Option A">Option A</label>
+        <label for="rad2"><input type="radio" id="rad2" name="rad2" value="Option B">Option B</label>
+        <label for="rad3"><input type="radio" id="rad3" name="rad3" value="Option C">Option C</label>
+    </div>
+    <div>
+        <h1>Calendar</h1>
+        <label for="calendar"><input type="date" name="calendar" id="calendar"> Calendar</label>
+
+    </div>
+    <input type="submit" value="Submit">
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
